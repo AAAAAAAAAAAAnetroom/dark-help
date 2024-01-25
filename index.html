@@ -1,0 +1,358 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/vs.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <title>𝙉𝙀𝙏𝙍𝙊𝙊𝙈 𝘿𝙖𝙧𝙠 𝙫𝙚𝙧𝙨𝙞𝙤𝙣 - Help</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .help-item {
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .help-title {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .help-content {
+            padding: 10px;
+            display: none;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-image {
+            text-align: center;
+        }
+
+            .product-image img {
+                max-width: 100%;
+                height: auto;
+            }
+
+        .product-info {
+            margin-top: 20px;
+        }
+
+            .product-info h2 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            .product-info p {
+                font-size: 16px;
+                line-height: 1.5;
+            }
+
+        header {
+            background-color: #000000;
+            padding: 20px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #000000;
+            padding: 10px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+            nav a {
+                color: #ffffff;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+        .copy-button {
+            display: inline-block;
+            padding: 5px 10px;
+            font-size: 14px;
+            cursor: pointer;
+            background-color: #707070;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+        }
+
+            .copy-button:hover {
+                background-color: #303030;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>𝙉𝙀𝙏𝙍𝙊𝙊𝙈 𝘿𝙖𝙧𝙠 𝙫𝙚𝙧𝙨𝙞𝙤𝙣</h1>
+    </header>
+
+    <nav>
+        <a href="#home">ホーム</a>
+        <a href="#products">機能</a>
+        <a href="#support">サポート</a>
+        <a href="#contact">お問い合わせ</a>
+    </nav>
+    <div class="container" id="home">
+
+        <div class="product-info">
+            <h2>𝙉𝙀𝙏𝙍𝙊𝙊𝙈 𝘿𝙖𝙧𝙠 𝙫𝙚𝙧𝙨𝙞𝙤𝙣ヘルプページ</h2>
+            <p><span style="text-decoration: underline; color: #ff0000;"><strong>注意:本ツールはスマホ用ページに対応していません。そのため、スマホおよびタブレット端末での動作についてはお答えできません。</strong></span></p>
+            <p>ここではNETROOM Dark versionについてのQ&Aを載せています。もし質問がここに無かった場合には私AAAAAAAAAAAAにお問い合わせください。</p>
+            <p>※ここではユーザースクリプトを実行する拡張機能を代表してTempermonkeyと言っていますが別に実行できるものなら他でも大丈夫です(ヘルプの「Daskversionの入れ方がわからない」参照)</p>
+</div>
+    </div>
+    <section>
+
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(1)">NETROOM Dark versionが起動しない</div>
+            <div class="help-content">
+                <p>機能しない場合、以下の場合が挙げられます。</p>
+                <ol>
+                    <li>Tempermonkey等の拡張機能の電源がオフになっている</li>
+                    <li>NETROOM Dark versionの電源がオフになっている</li>
+                    <li>シークレットモードで開いている</li>
+                    <li>コードを正しくコピペ出来ていない(コピペミス)</li>
+                    <li>コードのシステムエラー</li>
+                    <li>拡張機能、あるいはdarkversionを入れていないブラウザでアクセスしている</li>
+                </ol>
+                <p>1.はブラウザ側でTempermonkeyの電源がオフになっているケースです。ブラウザの設定で拡張機能をオンになっているか確認しましょう。</p>
+                <div class="product-image">
+                    <img src="help1.png" alt="設定(拡張機能)">
+                </div>
+                <p>2.は拡張機能側でNETROOM Dark versionの電源がオフになっているケースです。拡張機能(Tempermonkey)の設定を開いて確認しましょう。</p>
+                <div class="product-image">
+                    <img src="help2.png" alt="拡張機能(off)">
+                </div>
+                <p>3.はシークレットモードで拡張機能のページへのアクセスがブラウザ側でブロックされて機能しないケースです。設定で拡張機能のシークレットモードでの実行を許可するか通常のタブを開いて下さい。</p>
+                <p>4.はコードを正しくコピペできておらず、構文にエラーがあったがために実行できないケースです。ちゃんと構文の全てをコピペしてから実行しましょう。</p>
+                <p>5.は私の作成したコードの作成ミスやバグです。その場合、私に伝えていただけると有り難いです。</p>
+                <p>6.は余り無いと思いますがブラウザを多用する人にはたまにあるケースです。Tempermonkeyを入れるか既に入っている場合はDarkversionを入れるか既に入っているブラウザでアクセスましょう。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(2)">Daskversionの入れ方がわからない</div>
+            <div class="help-content">
+                <p>まずはユーザースクリプトを実行できるようにするための拡張機能を入れます。ブラウザによって拡張機能が違う場合がありますので以下を確認してください。</p>
+                <table class="tablesorter tablesorter-default tablesorter9e115dff99aed" role="grid"> <thead> <tr role="row" class="tablesorter-headerRow"> <th style="text-align: left; user-select: none;" data-column="0" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none" aria-label="ブラウザ: No sort applied, activate to apply an ascending sort"><div class="tablesorter-header-inner">ブラウザ</div></th> <th style="text-align: left; user-select: none;" data-column="1" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none" aria-label="ユーザースクリプトマネージャー: No sort applied, activate to apply an ascending sort"><div class="tablesorter-header-inner">ユーザースクリプトマネージャー</div></th> </tr> </thead> <tbody aria-live="polite" aria-relevant="all"> <tr role="row"> <td style="text-align: left">Google Chrome</td> <td style="text-align: left"> <a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank" rel="noopener noreferrer">Tampermonkey</a>, <a href="https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag" target="_blank" rel="noopener noreferrer">Violentmonkey</a> </td> </tr> <tr role="row"> <td style="text-align: left">Firefox</td> <td style="text-align: left"> <a href="https://addons.mozilla.org/ja/firefox/addon/greasemonkey/" target="_blank" rel="noopener noreferrer">Greasemonkey</a>, <a href="https://addons.mozilla.org/ja/firefox/addon/tampermonkey/" target="_blank" rel="noopener noreferrer">Tampermonkey</a>, <a href="https://addons.mozilla.org/ja/firefox/addon/tampermonkey/" target="_blank" rel="noopener noreferrer">Violentmonkey</a> </td> </tr> <tr role="row"> <td style="text-align: left">Safari</td> <td style="text-align: left"><a href="http://tampermonkey.net/?browser=safari" target="_blank" rel="noopener noreferrer">Tampermonkey</a></td> </tr> <tr role="row"> <td style="text-align: left">Microsoft Edge</td> <td style="text-align: left"><a href="http://tampermonkey.net/?browser=edge" target="_blank" rel="noopener noreferrer">Tampermonkey</a></td> </tr> </tbody> </table>
+                <p> 上記以外にも対応しているブラウザはありますが割愛</p>
+                <p>次に拡張機能のメニューで新しいスクリプトを作成するで以下をコピペしてCtrl+Sで保存します。(このコードはダミーっす。)</p>
+                <pre>
+                <code>
+// ==UserScript==
+// @name         𝙉𝙀𝙏𝙍𝙊𝙊𝙈 𝘿𝙖𝙧𝙠 𝙫𝙚𝙧𝙨𝙞𝙤𝙣
+// @namespace    http://tampermonkey.net/
+// @version      none
+// @description  NETROOM改造ツール
+// @author       AAAAAAAAAAAA
+// @match        https://netroom.oz96.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=netroom.co.jp
+// @grant        none
+// ==/UserScript==
+
+var d = document.createElement('script');
+d.setAttribute('src', 'https://aaaaaaaaaaaanetroom.github.io/dark/dark.js');
+d.setAttribute('charset', 'UTF-8'); body.appendChild(d);
+                    </code>
+                </pre>
+                <button class="copy-button" onclick="copyToClipboard()">📋コピー</button>
+                <script>
+                    function copyToClipboard() {
+                        var copyText = `
+// ==UserScript==
+// @name         𝙉𝙀𝙏𝙍𝙊𝙊𝙈 𝘿𝙖𝙧𝙠 𝙫𝙚𝙧𝙨𝙞𝙤𝙣
+// @namespace    http://tampermonkey.net/
+// @version      none
+// @description  NETROOM改造ツール
+// @author       AAAAAAAAAAAA
+// @match        https://netroom.oz96.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=netroom.co.jp
+// @grant        none
+// ==/UserScript==
+
+var d = document.createElement('script');
+d.setAttribute('src', 'https://aaaaaaaaaaaanetroom.github.io/dark/dark.js');
+d.setAttribute('charset', 'UTF-8'); document.body.appendChild(d);
+                        `;
+                        var range = document.createRange();
+                        var selection = window.getSelection();
+                        var tempDiv = document.createElement("div");
+                        tempDiv.innerText = copyText;
+                        document.body.appendChild(tempDiv);
+                        range.selectNode(tempDiv);
+                        selection.removeAllRanges();
+                        selection.addRange(range);
+                        document.execCommand("copy");
+                        selection.removeAllRanges();
+                        document.body.removeChild(tempDiv);
+                        var copyButton = document.querySelector(".copy-button");
+                        copyButton.textContent = "✔コピーしました";
+                        setTimeout(function () {
+                            copyButton.textContent = "📋コピー";
+                        }, 2000);
+                    }
+                </script>
+
+
+                <p>これでNETROOMを開いて黒い背景が出れば成功です。もしうまく機能しない場合は手順を追って再度行うか本ヘルプの「NETROOM Dark versionが起動しない」を確認してください。</p>
+            </div>
+
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(3)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(4)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(5)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(6)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(7)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(8)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(9)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(10)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(11)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(12)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(13)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(14)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(15)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(16)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(17)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(18)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(19)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+        <div class="help-item">
+            <div class="help-title" onclick="toggleContent(20)">ヘルプ1</div>
+            <div class="help-content">
+                <p>ヘルプ1の詳細な説明がここに入ります。</p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <script>
+        function toggleContent(index) {
+            var content = document.getElementsByClassName('help-content')[index - 1];
+            if (content.style.display === 'block') {
+                content.style.display = 'none';
+            } else {
+                content.style.display = 'block';
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+
